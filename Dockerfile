@@ -16,7 +16,9 @@ RUN apt -y update && \
                    nano \
                    openvpn \
                    iputils-ping \
-                   iproute2 whois curl
+                   iproute2 \
+                   whois \
+                   curl
 
 # set the working directory
 WORKDIR /root
